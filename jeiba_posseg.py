@@ -1,3 +1,9 @@
+'''
+使用jeiba的詞性工具posseg 此版本篩掉了副詞 形容詞 標點符號和不明用語
+義及不需要在篩詞性之前先做資料處理(刪除標點符號和數字)
+並且使用了brand dictionary
+'''
+
 #encoding=utf-8  
 import csv
 import pandas as pd
