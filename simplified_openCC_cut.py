@@ -1,3 +1,7 @@
+'''
+使用openCC將繁體中文轉成簡體中文
+(這個版本沒有考慮詞性)
+'''
 #encoding=utf-8  
 import csv
 import pandas as pd
